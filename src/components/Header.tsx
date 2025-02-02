@@ -14,8 +14,10 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import { currentUser } from "@clerk/nextjs/server";
 
-const Header = () => {
+const Header = async () => {
+  await currentUser();
   return (
     <header className="fixed top-0 bg-background/80 backdrop-blur-md w-full border-b z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex justify-between items-center h-16 px-4">
