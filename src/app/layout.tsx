@@ -38,7 +38,7 @@ export default function RootLayout({
             {/* Footer */}
             <footer className="bg-muted/50 py-12">
               <div className="container mx-auto text-center px-4 text-gray-200">
-                <p>Made with 🩵 by KIRAN-BUSARI</p>
+                <p>Made with 🩵 by CAREER-AI</p>
               </div>
             </footer>
           </ThemeProvider>
